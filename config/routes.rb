@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :tasks
+  # Get all tasks
+  # Get one tasks
+  # Get the form to create a new task
+  # Post a new task
+  # Get the form to edit a existing task
+  # update an existing task
+  # delete an existing task
 end
